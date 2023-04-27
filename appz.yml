@@ -24,5 +24,16 @@ volumes:
   size: 5Gi
   mode: ReadWriteOnce
   
+  
 properties:
-  revision : 05
+  DB_USER_ADMIN: admin
+  DB_USER_ADMIN_PASSWORD:
+     vault: DB_USER_ADMIN_PASSWORD
+  MONGODB_HOST: 127.0.0.1
+  MONGODB_PORT: 27017
+  
+
+
+  AUTH_ENABLE: 1
+  revision : 10
+
