@@ -4,11 +4,11 @@ app:
   notify: appz@cloudbourne.co
 
 build:
-  version: 4.2
+  version: 4.4
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-4.2
+  image_template: mongo-4.4
   
 deploy:
   context: mushraf6461/DEV
