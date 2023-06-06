@@ -34,5 +34,5 @@ properties:
      vault: MONGO_MDM_PASSWORD
 
   AUTH_ENABLE: 1
-  revision : 14
+  revision : 15
 
