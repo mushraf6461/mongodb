@@ -27,7 +27,7 @@ volumes:
 - claim: mongo-key
   mount: /appz/keys
   name: key
-  size: 5Gi 
+  size: 1Gi 
   
   
 properties:
@@ -40,5 +40,5 @@ properties:
   AUTH_KEY:
      vault: AUTH_KEY
   AUTH_ENABLE: 1
-  revision : 17
+  revision : 18
 
