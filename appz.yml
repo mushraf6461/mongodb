@@ -32,7 +32,9 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGO_MDM_PASSWORD:
      vault: MONGO_MDM_PASSWORD
-
+  REPLICATION: 3 
+  AUTH_KEY:
+     vault: AUTH_KEY
   AUTH_ENABLE: 1
   revision : 16
 
