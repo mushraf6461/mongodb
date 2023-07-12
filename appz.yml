@@ -13,7 +13,7 @@ build:
 deploy:
   context: mushraf6461/DEV
   type: statefulset
-  replicas: 1
+  replicas: 3
   port:
   - 27017
   - 9216
@@ -36,7 +36,7 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGO_MDM_PASSWORD:
      vault: MONGO_MDM_PASSWORD
-  REPLICATION: 0 
+  REPLICATION: 3
   AUTH_KEY:
      vault: AUTH_KEY
   AUTH_ENABLE: 1
